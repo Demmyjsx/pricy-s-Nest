@@ -220,6 +220,7 @@ export default function ServicesPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 pt-8 text-center">
             <p className="text-gray-600 text-sm">© 2024 All right reserved.</p>
+            <p className="text-gray-600 text-sm">Lagos Nigeria</p>
           </div>
         </div>
       </footer>
