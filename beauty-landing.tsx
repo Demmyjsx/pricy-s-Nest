@@ -164,7 +164,7 @@ export default function Component() {
                   onClick={prevSlide}
                   variant="outline"
                   size="icon"
-                  className="border-white text-white hover:bg-white hover:text-[#A08F73] rounded-full"
+                  className="border-white text-white bg-[#a08f73] hover:bg-white hover:text-[#A08F73] rounded-full"
                 >
                   <ChevronLeft className="h-4 w-4" />
                 </Button>
@@ -172,7 +172,7 @@ export default function Component() {
                   onClick={nextSlide}
                   variant="outline"
                   size="icon"
-                  className="border-white text-white hover:bg-white hover:text-[#A08F73] rounded-full"
+                  className="border-white text-white bg-[#a08f73] hover:bg-white hover:text-[#A08F73] rounded-full"
                 >
                   <ChevronRight className="h-4 w-4" />
                 </Button>
