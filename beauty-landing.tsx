@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react"
+import { ChevronLeft, ChevronRight, ArrowRight, Codesandbox } from "lucide-react"
 import Link from "next/link"
 
 export default function Component() {
@@ -12,24 +12,73 @@ export default function Component() {
   const services = [
     {
       id: 1,
-      title: "Swedish Deep Tissue Massage",
-      price: "Rp. 550.000,00",
-      code: "SPA. 01",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Couple Massage",
+      description:
+        "Enjoy a relaxing massage experience with your partner in our luxurious couple's suite. Perfect for romantic getaways and special occasions.",
+      price: "150,000",
+      duration: "90 minutes",
+      image: "/couples.png?height=300&width=400",
+      code : "Spa-001"
     },
     {
       id: 2,
-      title: "Facials Massage with Scrubs",
-      price: "Rp. 950.000,00",
-      code: "SPA. 02",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Deep Tissue",
+      description:
+        "Therapeutic massage targeting deeper layers of muscle and connective tissue. Ideal for chronic pain relief and muscle tension.",
+      price: "80,000",
+      duration: "60 minutes",
+      image: "/action.jpeg?height=300&width=400",
+      code: "Spa-002"
     },
     {
       id: 3,
-      title: "Body Treatments with Scrubs",
-      price: "Rp. 650.000,00",
-      code: "SPA. 03",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Swedish",
+      description:
+        "Classic relaxation massage using long, flowing strokes to promote circulation and reduce stress. Perfect for first-time spa visitors.",
+      price: "70,000",
+      duration: "60 minutes",
+      image: "/girlback.jpeg?height=300&width=400",
+      code: "Spa-003"
+    },
+    {
+      id: 4,
+      title: "Aromatherapy",
+      description:
+        "Soothing massage combined with essential oils to enhance relaxation and promote emotional well-being through therapeutic scents.",
+      price: "70,000",
+      duration: "75 minutes",
+      image: "/aroma.jpg?height=300&width=400",
+      code: "Spa-004"
+    },
+    {
+      id: 5,
+      title: "Nuru Massage",
+      description:
+        "An erotic massage which involes body contact for pleasure and relaxation",
+      price: "150,000",
+      duration: "90 minutes",
+      image: "/erotiiccc.webp?height=300&width=400",
+      code: "Spa-005"
+    },
+    {
+      id: 6,
+      title: "Hot Stone Massage",
+      description:
+        "Therapeutic massage using heated volcanic stones to melt away tension and promote deep muscle relaxation.",
+      price: "80,000",
+      duration: "80 minutes",
+      image: "/hot-stone.jpeg?height=300&width=400",
+      code: "Spa-006"
+    },
+    {
+      id: 7,
+      title: "Classic / Basic Pedicure",
+      description:
+        "Complete foot care treatment including nail trimming, cuticle care, exfoliation, and relaxing foot massage with polish application.",
+      price: "30,000",
+      duration: "45 minutes",
+      image: "/pedicure.jpg?height=300&width=400",
+      code: "Spa-007"
     },
   ]
 
@@ -236,7 +285,7 @@ export default function Component() {
               <div className="relative h-80 lg:h-96 order-1 lg:order-2">
                 <div className="absolute inset-0 bg-[#A08F73] rounded-l-2xl lg:rounded-l-none lg:rounded-r-2xl"></div>
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/scrub.jpeg?height=400&width=600"
                   alt="Woman holding sugar scrub product"
                   fill
                   className="object-cover object-center rounded-l-2xl lg:rounded-l-none lg:rounded-r-2xl"

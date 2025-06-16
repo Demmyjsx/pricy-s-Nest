@@ -68,7 +68,8 @@ export default function ServicesPage() {
         "Complete foot care treatment including nail trimming, cuticle care, exfoliation, and relaxing foot massage with polish application.",
       price: "30,000",
       duration: "45 minutes",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/pedicure.jpg?height=300&width=400",
+      
     },
   ]
 
