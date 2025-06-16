@@ -183,7 +183,7 @@ export default function Component() {
             <div className="overflow-hidden">
               <div
                 className="flex transition-transform duration-300 ease-in-out"
-                style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                style={{ transform: `translateX(-${currentSlide * 200}%)` }}
               >
                 {services.map((service, index) => (
                   <div key={service.id} className="w-full flex-shrink-0">
