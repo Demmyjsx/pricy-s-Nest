@@ -94,7 +94,7 @@ export default function Component() {
   useEffect(() => {
     const carouselTimer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % services.length)
-    }, 1500)
+    }, 2500)
 
     return () => clearInterval(carouselTimer)
   }, [services.length])
@@ -183,7 +183,7 @@ export default function Component() {
             <div className="overflow-hidden">
               <div
                 className="flex transition-transform duration-300 ease-in-out"
-                style={{ transform: `translateX(-${currentSlide * 200}%)` }}
+                style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
                 {services.map((service, index) => (
                   <div key={service.id} className="w-full flex-shrink-0">
